@@ -1,0 +1,70 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.5em;
+	color: #000000;
+	text-align: center;
+	margin: 0;
+}
+
+.intro {
+	display: block;
+}
+.mainQ1 {
+	display: none;
+}
+.bigLogo {
+	background-image: url('../images/logo2.PNG');
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 590px;
+	height: 360px;
+	margin: 10rem auto 0;
+	display: block;
+}
+
+.question {
+	font-size: 3rem;
+	margin: 1rem auto;
+}
+
+.settings {
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	text-align: center;
+	width: 2rem;
+	margin: 0 auto;
+}
+
+.begin-submit {
+	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+	width: 6rem;
+	margin: 2rem auto;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	padding: 4px;
+	background-color: red;
+	border: 3px solid orange;
+	border-radius: 8px;
+	box-shadow: -3px 3px 7px black;
+}
