@@ -5,38 +5,176 @@
 	<title>Dog Quiz</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Advent+Pro:700,500,400,300,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<header class="intro">
-		<div class="bigLogo">
-		</div>
-			<h1 class="question">Choose your settings</h1>
-		</div>
+	<div class ="introPage">
+		<header>
+			<div class="bigLogo">
+			</div>
+		</header>
+		<section>
+			<h1 class="question">Choose your settings
+			</h1>
 			<form>
 				<input type="radio" class="settings" name="gender" value="Male"/>Male
 				<input type="radio" class="settings" name="gender" value="Female"/>Female<br>
 				<input type="radio" class="settings" name="breed" value="Purebred"/>Purebred
 				<input type="radio" class="settings" name="breed" value="Hybrid"/>Hybrid
 				<input type="radio" class="settings" name="breed" value="Mutt"/>Mutt<br>	
-				<input type="button" class="begin-submit" value="Begin"/>
+				<input type="submit" class="begin" value="Begin"/>
 			</form>
-	</header>
-	<header class="mainQ1">
-		<div class="smallLogo">
-		</div>
-			<h1>Question1</h1>
-			<input type="text">
-			<input type="button" class="begin-submit">Begin</input>
-		</div>
-	</header>
-
-
-
-
-
+		</section>
+	</div>
+	<div class="questionPage">
+		<header>
+			<div class="smallLogo">
+			</div>
+		</header>
+		<section class="question1">
+			<h1 class="question">What does it mean when your dog yawns?
+			</h1>
+			<div class="leftside">
+				<div class="q1photo">
+				</div>
+			</div>
+			<div class="rightside">
+				<form class="answers">
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Bored"/>Bored or tired<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Align"/>Aligning their tongue<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="More"/>Get more oxygen to the brain<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Pop"/>Trying to pop their ears
+					<input type="submit" class="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<section class="question2">
+			<h1 class="question">Why would a dog open their eyes wide to show the white edges of their eyes?
+			</h1>
+			<div class="leftside">
+				<div class="q2photo">
+				</div>
+			</div>
+			<div class="rightside">
+				<form class="answers">
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Upset"/>They are upset and ready to attack<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Surprised"/>You surprised them<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Hungry"/>They are hungry<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="RollingEyes"/>It's like a human rolling their eyes
+					<input type="submit" class="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<section class="question3">
+			<h1 class="question">When a dog's tail is straight out, horizontal and stiff what could it mean?
+			</h1>
+			<div class="leftside">
+				<div class="q3photo">
+				</div>
+			</div>
+			<div class="rightside">
+				<form class="answers">
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Pee"/>They have to pee<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Aggressive"/>Aggressive state of mind<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Happy"/>They are happy<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Pointing"/>They are just pointing behind them
+					<input type="submit" class="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<section class="question4">
+			<h1 class="question">What does it mean when they sneeze while playing?
+			</h1>
+			<div class="leftside">
+				<div class="q4photo">
+				</div>
+			</div>
+			<div class="rightside">
+				<form class="answers">
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Sick"/>They are catching a cold<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="GoodTime"/>They are having a good time<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="Vacume"/>You need to dust or vacume<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="BadSmell"/>They smelled something bad like a fart
+					<input type="submit" class="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<section class="question5">
+			<h1 class="question">What should you do when you encounter an aggressive dog?
+			</h1>
+			<div class="leftside">
+				<div class="q5photo">
+				</div>
+			</div>
+			<div class="rightside">
+				<form class="answers">
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="LookBigger"/>Make yourself look bigger, with arms raised<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="RunAway"/>Run away and scream for your mommy<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="PlayDead"/>Play dead, but not like a zombie<br>
+					<input type="radio" class="answer" name="answer" autocomplete="off" value="BackAway"/>Avoid eye contact, back away slowly
+					<input type="submit" class="submit" value="Submit"/>
+				</form>
+			</div>
+		</section>
+		<section class="correct">
+				<div class="correct-photo">
+				</div>
+				<h1 class="correct-answer">Correct!
+				</h1>
+				<div class="correct-cookie">
+				</div>
+				<h3 class="correct-treat">Your cookie is getting bigger!</h3>	
+		</section>
+		<section class="wrong">
+				<div class="wrong-photo">
+				</div>
+				<h1 class="correct-answer">Wrong! Grrr!
+				</h1>
+				<div class="wrong-cookie">
+				</div>
+				<h3 class="correct-treat">Your cookie is getting smaller!</h3>	
+		</section>
+		<section class="result">
+				<div class="result-photo">
+				</div>
+					<h1 class="result-answer">Good girl, you got 5 out of 5 correct!
+					</h1>
+				<div class="final-cookie">
+					<p class="phrase">You get a BIG cookie!&nbsp&nbsp<span class="result-cookie"></span>&nbsp&nbspThank you for playing!</p>
+				</div>
+				<button class="reset">Try Again
+				</button>	
+		</section>
+		<section class="bottom">
+			<div class="left">
+				<div class="treat"><h3>Your current cookie size:</h3>
+				</div>
+			</div>
+			<div class="right">
+				<div class="cookie">
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<ul class="paws">
+				<li class="paw1"></li>
+				<li class="paw2"></li>
+				<li class="paw3"></li>
+				<li class="paw4"></li>
+				<li class="paw5"></li>
+			</ul>
+			<ul class="pawsr">
+				<li class="paw1r"></li>
+				<li class="paw2r"></li>
+				<li class="paw3r"></li>
+				<li class="paw4r"></li>
+				<li class="paw5r"></li>
+			</ul>
+		</footer>
+	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/app.js"></script>	
 </body>
 </html>
+
