@@ -52,6 +52,16 @@ input[type="radio"] {
 	margin: 1rem auto;
 }
 
+.gender {
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	text-align: center;
+	width: 2rem;
+	margin: 0 auto;
+}
+
 .settings {
 	display: inline-block;
 	font-size: 2rem;
@@ -62,7 +72,7 @@ input[type="radio"] {
 	margin: 0 auto;
 }
 
-.answers {
+.answers1, .answers2, .answers3, .answers4, .answers5 {
 	float: left;
 	display: block;
 	font-size: 1.5rem;
@@ -96,6 +106,21 @@ input[type="radio"] {
 	font-weight: 700;
 	width: 6rem;
 	margin: 2rem 2rem;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	padding: 4px;
+	background-color: red;
+	border: 3px solid orange;
+	border-radius: 8px;
+	box-shadow: -3px 3px 7px black;
+}
+.continue {
+	display: block;
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 700;
+	width: 8rem;
+	margin: 2rem auto;
 	color: white;
 	text-shadow: 1px 1px 2px black;
 	padding: 4px;
@@ -458,10 +483,10 @@ input[type="radio"] {
 }
 
 .introPage {
-	display: none;
+	display: block;
 }
 .questionPage {
-	display: block;
+	display: none;
 }
 .question1 {
 	display: none;
@@ -482,7 +507,7 @@ input[type="radio"] {
 	display: none;
 }
 .wrong {
-	display: block;
+	display: none;
 }
 .result {
 	display: none;
@@ -491,7 +516,7 @@ input[type="radio"] {
 	display: none;
 }
 .footer {
-	display: inline-block;
+	display: none;
 	width: 100%;
 	margin: 2rem auto;
 }
