@@ -107,7 +107,7 @@
 				</div>
 			</div>
 			<div class="rightside">
-				<form class="answers5" id="question5">
+				<form class="answers5" id="result">
 					<input type="radio" class="answer" name="answer5" autocomplete="off" value="LookBigger"/>Make yourself look bigger, with arms raised<br>
 					<input type="radio" class="answer" name="answer5" autocomplete="off" value="RunAway"/>Run away and scream for your mommy<br>
 					<input type="radio" class="answer" name="answer5" autocomplete="off" value="PlayDead"/>Play dead, but not like a zombie<br>
@@ -116,35 +116,58 @@
 				</form>
 			</div>
 		</section>
+		<!-- score section will hold number of correct answers -->
+		<section class="score" style="display: none">
+		</section>
 		<section class="correct">
 				<div class="correct-photo">
 				</div>
 				<h1 class="correct-answer">Correct!
 				</h1>
-				<div class="correct-cookie">
+				<div class="answer-cookie">
 				</div>
 				<h3 class="correct-treat">Your cookie is getting bigger!</h3>	
 				<input type="submit" class="continue" value="Continue"/>
+		</section>
+		<section class="final-correct">
+				<div class="correct-photo">
+				</div>
+				<h1 class="correct-answer">Correct!
+				</h1>
+				<div class="answer-cookie">
+				</div>
+				<h3 class="correct-treat">Your cookie is getting bigger!</h3>	
+				<input type="submit" class="getScore" value="Get Score"/>
 		</section>
 		<section class="wrong">
 				<div class="wrong-photo">
 				</div>
 				<h1 class="correct-answer">Wrong! Grrr!
 				</h1>
-				<div class="wrong-cookie">
+				<div class="answer-cookie">
 				</div>
-				<h3 class="correct-treat">Your cookie is getting smaller!</h3>
+				<h3 class="correct-treat">Your cookie stayed the same!</h3>
 				<input type="submit" class="continue" value="Continue"/>	
 		</section>
+		<section class="final-wrong">
+				<div class="wrong-photo">
+				</div>
+				<h1 class="correct-answer">Wrong! Grrr!
+				</h1>
+				<div class="answer-cookie">
+				</div>
+				<h3 class="correct-treat">Your cookie stayed the same!</h3>
+				<input type="submit" class="getScore" value="Get Score"/>	
+		</section>
 		<section class="result">
-				<div class="result-photo">
+				<div class="correct5-photo">
 				</div>
 					<h1 class="result-answer">Good girl, you got 5 out of 5 correct!
 					</h1>
 				<div class="final-cookie">
-					<p class="phrase">You get a BIG cookie!&nbsp&nbsp<span class="result-cookie"></span>&nbsp&nbspThank you for playing!</p>
+					<p class="phrase">You get a HUGE cookie!&nbsp&nbsp<span class="result-cookie"></span>&nbsp&nbspThank you for playing!</p>
 				</div>
-				<input onclick="reloadPage()" class="reset" value="Try Again"/>	
+				<input type="submit" onclick="reloadPage()" class="reset" value="Try Again"/>	
 		</section>
 		<section class="bottom">
 			<div class="left">
@@ -164,13 +187,6 @@
 				<li class="paw4"></li>
 				<li class="paw5"></li>
 			</ul>
-			<!-- <ul class="pawsr">
-				<li class="paw1r"></li>
-				<li class="paw2r"></li>
-				<li class="paw3r"></li>
-				<li class="paw4r"></li>
-				<li class="paw5r"></li>
-			</ul> -->
 		</footer>
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
