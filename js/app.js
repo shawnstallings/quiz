@@ -43,7 +43,7 @@ $(function() {
         $(".introPage").hide();
         $(".questionPage").css({display: "block"});
         $(".question1").css({display: "block"});
-        $(".bottom").css({display: "block"});
+        $(".bottom").css({display: "inline-block"});
         $(".footer").css({display: "inline-block"});
         $(".paw1").removeClass('paw1').addClass('paw1r');
     });
