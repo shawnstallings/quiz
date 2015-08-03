@@ -176,7 +176,7 @@ $(function() {
             }
             else {
     	        $("." + questionNumber).css({display: "block"});
-    	        $(".bottom").css({display: "block"});
+    	        $(".bottom").css({display: "inline-block"});
                 $(".footer").css({display: "inline-block"});
                 $(".answer").removeClass('selectedAnswer');
             }    
